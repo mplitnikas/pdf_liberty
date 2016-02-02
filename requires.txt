@@ -1,0 +1,22 @@
+Pip installs:
+	PyPDF2
+	PIL
+	ReportLab
+	Watchdog(?)
+
+Software installs:
+	python (on PATH)
+	python-pip
+	pypdfocr (on PATH)
+		suggest windows exe package? (can edit files??):
+			http://virantha.com/2013/07/22/pyocr-a-python-script-for-running-free-ocr-on-your-pdfs/
+		otherwise see below for links etc
+			https://pypi.python.org/pypi/pypdfocr
+	pypdfocr dependencies: http://virantha.github.io/pypdfocr/html/
+		ghostscript
+		Tesseract OCR
+		ImageMagick
+		Poppler
+
+changes:
+	to pypdfocr_gs: include [-firstpage 1 -lastpage 1] in ghostscript cmd
