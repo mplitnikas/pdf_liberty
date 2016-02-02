@@ -5,6 +5,7 @@ Pip installs:
 	Watchdog(?)
 
 Software installs:
+	git / github
 	python (on PATH)
 	python-pip
 	pypdfocr (on PATH)
